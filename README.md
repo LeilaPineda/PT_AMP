@@ -83,7 +83,7 @@ El script procesa toda la lógica anterior y genera archivos finales optimizados
 import pandas as pd
 
 # Carga de datos sucios
-df = pd.read_excel('datos_sucios.xlsx')
+df = pd.read_csv('data/ecommerce_orders_feb2026.csv')
 
 # Eliminación de duplicados y limpieza básica de espacios
 df = df.drop_duplicates()
